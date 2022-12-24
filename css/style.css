@@ -371,3 +371,8 @@ article img {
   display: block;
   background-color: #037c70;
 }
+
+.but {
+  max-width: 200px;
+  background-color: #142850;
+}

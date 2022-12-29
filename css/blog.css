@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  header {
+    padding-top: 27px;
+  }
+  
+  .container {
+    max-width: 1032px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .d_flex {
+    display: flex;
+  }
+  
+  .justify_end {
+    justify-content: flex-end;
+  }
+  
+  #menu {
+    display: flex;
+    list-style: none;
+  }
+  
+  header nav li {
+    margin-left: 33px;
+  }
+  
+  header nav li a {
+    font-family: "Heebo", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+    margin-bottom: 106px;
+  }
+  header nav li:first-of-type a{
+    color: #FF6464;
+  }
+
+  /* blog */
+  .blog{
+  margin: auto;
+  max-width: 682px;
+}
+  .blog h1 {
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+margin-bottom: 55px;
+
+  }
+
+.blog_week h4 {
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+color: #21243D;
+margin-bottom: 15px;
+  }
+  .blog_week h5 {
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #21243D;
+padding-bottom: 15px;
+  }
+  .blog_week hr {
+    margin-right: 26px;
+    margin-left: 30px;
+    display: inline;
+    width: 0;
+    height: 20px;
+    border: 1px solid #000000;
+  }
+  .blog_week span {
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #8695A4;
+  }
+
+  .blog_week p {
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+padding-bottom: 29px;
+  }
+  
+  .hr_black {
+    border: 1px solid #E0E0E0;
+    margin-bottom: 32px;
+  }
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* footer */
+
+.blok {
+  padding-bottom: 54px;
+  padding-top: 54px;
+  background-color: white;
+}
+.social {
+  max-width: 100%;
+}
+
+.social ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.social li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.social p {
+  padding-top: 26px;
+  display: flex;
+  justify-content: center;
+}

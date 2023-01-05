@@ -133,6 +133,7 @@ color: #FF6464;;
   width: 100%;
   display: block;
 }
+
 /* Recent posts */
 .recent {
   background-color: #EDF7FA;
@@ -143,10 +144,13 @@ color: #FF6464;;
   max-width: 858px;
   margin: auto;
 }
-
+.wiew {
+  display: flex;
+}
 .recent .container {
   max-width: 858px;
   margin: auto;
+justify-content: space-between;
 }
 
 .recent h2 {
@@ -159,8 +163,10 @@ display: flex;
 align-items: flex-end;
 color: #21243D;
 padding-bottom: 17px;
+box-sizing: border-box;
 
 }.recent a {
+  float: right;
   text-decoration: none;
   font-family: 'Heebo';
 font-style: normal;
@@ -173,8 +179,9 @@ color: #00A8CC;
 .recent .making {
   margin-right: 20px;
   padding: 24px;
-  max-width: 418px;
+  max-width: 358px;
   background-color: white;
+  box-sizing: border-box;
 }
 .recent .making h4 {
   font-family: 'Heebo';
@@ -369,7 +376,6 @@ article img {
   color: #ffffff;
   box-sizing: border-box;
 }
-
 .project label {
   display: none;
   padding-top: 17px;
@@ -457,4 +463,72 @@ article img {
 
 */
 
+/* blog */
+
+.blog{
+  margin: auto;
+  max-width: 682px;
+}
+.blog h1 {
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 60px;
+color: #21243D;
+margin-bottom: 55px;
+}
+.blog_week {
+  margin: auto;
+  display: block;
+  border-bottom:  1px solid #E0E0E0;
+  margin-bottom: 32px;
+}
+
+.blog_week h4 {
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 44px;
+color: #21243D;
+margin-bottom: 15px;
+  }
+  .blog_week h5 {
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #21243D;
+padding-bottom: 15px;
+border-left: 2px #000 solid;
+  }
+  .blog_week hr {
+    margin-right: 26px;
+    margin-left: 30px;
+    display: inline;
+    width: 0;
+    height: 20px;
+    border: 1px solid #000000;
+  }
+  .blog_week span {
+font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 29px;
+color: #8695A4;
+  }
+
+  .blog_week p {
+    font-family: 'Heebo';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #21243D;
+padding-bottom: 29px;
+  }
+  
 

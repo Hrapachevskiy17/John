@@ -312,16 +312,6 @@ article img {
   line-height: 24px;
   color: #21243d;
 }
-
-.qwe {
-  display: block;
-  background-color: #037c70;
-}
-
-.but {
-  max-width: 200px;
-  background-color: #142850;
-}
 /* information */
 
 .information {
@@ -509,7 +499,6 @@ font-size: 20px;
 line-height: 29px;
 color: #21243D;
 padding-bottom: 15px;
-border-left: 2px #000 solid;
   }
   .blog_week hr {
     margin-right: 26px;
